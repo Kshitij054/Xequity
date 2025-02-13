@@ -1,3 +1,6 @@
+// this is just to check branch feature
+
+
 import Profile from "./Profile/Profile";
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
@@ -55,7 +58,7 @@ function App() {
         />
       </Routes>
       <Footer/>
-    </Router>
+    </Router>//this is to check the branch feature
 
   );
 }
