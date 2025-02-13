@@ -1,5 +1,5 @@
 // this is just to check branch feature
-
+// this is the new changes 
 
 import Profile from "./Profile/Profile";
 import React, { useState } from "react";
@@ -7,12 +7,12 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Headbar from "./Headbar";
 import Product from "./Product";
 import ProductPage from "./ProductPage";
+import CompanyProfile from './CompanyProfile';
 import Login from "./Login/Login";
 import Investor from "./Investor";
 import InvestorPage from "./InvestorPage";
 import SignUp from "./SignUP/SignUp";
 import Footer from './Footer';
-import CompanyProfile from './CompanyProfile';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
